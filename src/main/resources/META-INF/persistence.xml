@@ -5,9 +5,9 @@
 	version="2.2">
 	<persistence-unit name="Funcionarios-PU">
 		<properties>
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/cadastrofuncionarios?createDatabaseIfNotExist=true" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/cadastrofuncionarios?createDatabaseIfNotExist=true&amp;useTimezone=true&amp;serverTimezone=UTC" />
 			<property name="javax.persistence.jdbc.user" value="root" />
-			<property name="javax.persistence.jdbc.password" value="123" />
+			<property name="javax.persistence.jdbc.password" value="1234" />
 			
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
 				

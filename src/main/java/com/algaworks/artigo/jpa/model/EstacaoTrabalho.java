@@ -21,7 +21,15 @@ public class EstacaoTrabalho {
 	
 	@OneToOne(mappedBy = "estacaoTrabalho")
 	private Funcionario funcionario;
-	
+
+	public Integer getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(Integer codigo) {
+		this.codigo = codigo;
+	}
+
 	public Integer getBloco() {
 		return bloco;
 	}
@@ -36,6 +44,14 @@ public class EstacaoTrabalho {
 	
 	public void setNumero(Integer numero) {
 		this.numero = numero;
+	}
+
+	public Funcionario getFuncionario() {
+		return funcionario;
+	}
+
+	public void setFuncionario(Funcionario funcionario) {
+		this.funcionario = funcionario;
 	}
 
 	@Override
